@@ -15,7 +15,7 @@ body
 }
 #logo-img
 {
-	background: url('H:/Git/coursera-test/site/Restaurant/M.jpg') left no-repeat;
+	background: url('https://cloud.githubusercontent.com/assets/22152102/19113537/bf5b7728-8b27-11e6-9985-d5e781a2cfbf.jpg') left no-repeat;
 	width:200px;
 	height: 180px;
 
@@ -99,12 +99,12 @@ body
 }
 #menu-tile
 {
-	background:url('H:/Git/coursera-test/site/Restaurant/noodles.jpg') center no-repeat;
+	background:url('https://cloud.githubusercontent.com/assets/22152102/19113500/893acc98-8b27-11e6-9c1a-0d5b53e3dcd5.jpg') center no-repeat;
 
 }
 #special-tile
 {
-	background:url('H:/Git/coursera-test/site/Restaurant/momo.jpg') center no-repeat;
+	background:url('https://cloud.githubusercontent.com/assets/22152102/19113499/8937bb52-8b27-11e6-9b79-8eef88190c0c.jpg') center no-repeat;
 
 }
 #menu-tile span, #special-tile span, #map-tile span
@@ -143,7 +143,7 @@ hr
 {
 	.container .jumbotron
 	{
-		background:url('https://cloud.githubusercontent.com/assets/22152102/19111928/b9920b20-8b1f-11e6-8123-e1d5d8deb93c.jpg') center no-repeat;
+		background:url('https://cloud.githubusercontent.com/assets/22152102/19113085/b3fc2dd4-8b25-11e6-832a-1fb0b7baa0f6.jpg') center no-repeat;
 		height:600px;
        
 	}
@@ -154,7 +154,7 @@ hr
 {
     #logo-img
   {
-	background: url('H:/Git/coursera-test/site/Restaurant/M1.jpg') left no-repeat;
+	background: url('https://cloud.githubusercontent.com/assets/22152102/19113538/bf75ddc0-8b27-11e6-8de6-7df3ef10a986.jpg') left no-repeat;
 	width:150px;
 	height: 130px;
 	margin: 0px;
@@ -172,7 +172,7 @@ hr
   }
   .container .jumbotron
 	{
-		background:url('H:/Git/coursera-test/site/Restaurant/hotel2.jpg') center no-repeat;
+		background:url('https://cloud.githubusercontent.com/assets/22152102/19111927/b98040de-8b1f-11e6-92e2-573d5c85d9b0.jpg') center no-repeat;
 		height:590px;  
 	}
 
@@ -191,7 +191,7 @@ hr
     }
     .container .jumbotron
     {
-		background:url('H:/Git/coursera-test/site/Restaurant/hotel3.jpg') center top no-repeat;
+		background:url('https://cloud.githubusercontent.com/assets/22152102/19111928/b9920b20-8b1f-11e6-8123-e1d5d8deb93c.jpg') center top no-repeat;
 		height:570px;  
 		
 	}
