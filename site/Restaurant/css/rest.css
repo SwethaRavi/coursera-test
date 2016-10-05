@@ -1,0 +1,262 @@
+body
+{
+	font-size:16px;
+	color:black;
+	background-color: #ffab91;
+	font-family: 'Oxygen', sans-serif;
+	
+}
+#header-nav
+{
+	color: white;
+	background-color: purple;
+	border-radius: 0;
+	border: 0;
+}
+#logo-img
+{
+	background: url('H:/Git/coursera-test/site/Restaurant/M.jpg') left no-repeat;
+	width:200px;
+	height: 180px;
+
+}
+.navbar-brand h1
+{
+	text-transform: uppercase;
+	font-family: 'Overlock SC', cursive;
+	color:#FFE0B2;
+	font-weight: bold;
+	font-size: 3em;
+	padding-left: 0.5em;
+    margin-top:0px;
+}
+.navbar-brand p
+{
+	text-align: center;
+	margin-top: 0px;
+	color:#FFE0B2;
+	font-size:1.2em;
+	padding-left:2em;
+	font-family: Lucida;
+	font-style: italic;
+}
+#ph
+{
+  font-size: 1.2em;
+ 
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus
+{
+   text-decoration: none;
+}
+#nav-list
+{
+	margin-top: 10px;
+}
+#nav-list a{
+	color:#e0e0e0;
+	text-align:center;
+}
+#nav-list a:hover{
+	background-color: #757575;
+}
+#nav-list a span{
+	font-size:1.7em;
+}
+#phone{
+	margin-top: 5px;
+}
+#phone a{
+	text-align: right;
+	padding-bottom: 0;
+}
+#phone div{
+	text-align: right;
+	padding-right: 15px;
+} 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #212121;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+/*End Header*/
+
+#menu-tile, #special-tile, #map-tile
+{
+	height:250px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid black;
+	overflow: hidden;
+	border-radius: 6px;
+}
+#menu-tile:hover, #special-tile:hover, #map-tile:hover
+{
+	box-shadow: 0px 3px 5px 3px #424242;
+}
+#menu-tile
+{
+	background:url('H:/Git/coursera-test/site/Restaurant/noodles.jpg') center no-repeat;
+
+}
+#special-tile
+{
+	background:url('H:/Git/coursera-test/site/Restaurant/momo.jpg') center no-repeat;
+
+}
+#menu-tile span, #special-tile span, #map-tile span
+{
+	position: absolute;
+	bottom:0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #000;
+	color:#fff;
+	opacity: .8;
+	//text-align: center;
+	text-transform: uppercase;
+}
+
+/*-----Footer-------*/
+.panel-footer
+{
+	margin-top: 25px;
+	padding-top: 30px;
+	background-color: grey;
+	padding-bottom: 30px;
+}
+#hours > span, #address > span
+{
+	font-size: 1.2em;
+}
+hr
+{
+	width: 50%;
+}
+/*--------Large Devices---------*/
+@media (min-width: 1200px)
+{
+	.container .jumbotron
+	{
+		background:url('H:/Git/coursera-test/site/Restaurant/hotel1.jpg') center no-repeat;
+		height:600px;
+       
+	}
+
+}
+/*--------Medium Devices---------*/
+@media (min-width: 992px) and (max-width: 1199px)
+{
+    #logo-img
+  {
+	background: url('H:/Git/coursera-test/site/Restaurant/M1.jpg') left no-repeat;
+	width:150px;
+	height: 130px;
+	margin: 0px;
+
+  }
+  .navbar-brand h1
+  {
+	font-size: 2em;
+	
+  }
+  .navbar-brand p
+  {
+	font-size:1em;
+	text-align: center;
+  }
+  .container .jumbotron
+	{
+		background:url('H:/Git/coursera-test/site/Restaurant/hotel2.jpg') center no-repeat;
+		height:590px;  
+	}
+
+}
+/*--------Small Devices---------*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .navbar-brand h1
+      {
+        font-size: 2em;	
+      }
+   .navbar-brand p
+    {
+	  font-size:1em;
+	  text-align: center;
+    }
+    .container .jumbotron
+    {
+		background:url('H:/Git/coursera-test/site/Restaurant/hotel3.jpg') center top no-repeat;
+		height:570px;  
+		
+	}
+	
+}
+/*--------Extra small Devices---------*/
+@media (max-width: 767px)
+{
+   	  .navbar-brand h1
+{
+	
+	font-size: 5vw;
+	padding-left: 0.5em;
+    margin-top:0px;
+}
+ .navbar-brand p
+ {
+	text-align: center;
+	font-size:2.4vw;
+	
+ }
+ #collapsable-nav a{
+ 	font-size: 1.2em;
+ }
+  #collapsable-nav a span{
+ 	font-size: 1em;
+ }
+ .container .jumbotron
+ {
+ 	padding:0;
+ }
+ #menu-tile, #special-tile
+ {
+ 	width: 380px;
+ 	margin-left:auto;
+ 	margin-right: auto;
+ }
+ 
+}
+
+
+@media (max-width: 470px)
+{
+	#menu-tile, #special-tile
+ {
+ 	width: 290px;
+ 	margin-left:auto;
+ 	margin-right: auto;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
